@@ -11,3 +11,4 @@ switch pb_type
 end
 
 %% Generate the graph
+gen_graph;
