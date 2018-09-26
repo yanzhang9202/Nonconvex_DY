@@ -9,7 +9,7 @@ clc;
 addpath(genpath(pwd));
 
 % Problem specification
-seed = 101;
+seed = 107;
 rng(seed);
 pb_type = 1;    % Nonconvex QP with affine equality constraints
                 % Nonconvex QP with quadratic equality constraints
@@ -19,3 +19,6 @@ pb_spec;
 % Run algorithm
 alg_spec;
 alg_run;
+
+%
+

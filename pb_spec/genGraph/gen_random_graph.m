@@ -35,6 +35,7 @@ end
 graph.adjacency = mat;  graph.nodedge = ne;    
 graph.lap1 = lap1;      graph.lap2 = lap2;
 graph.num_edge = num_edge;
+graph.edgenode = ne';
 
 clear row col A flag ii imax ind kk mat ne num_edge tmax lap1 lap2
 
