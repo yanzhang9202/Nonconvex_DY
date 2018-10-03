@@ -1,4 +1,6 @@
 %% For linear equality constrained problem
+options = optimoptions('quadprog',...
+'Algorithm','interior-point-convex','Display','off');
 for jj = 1 : N
     % Update local multiplier
     lambda(:,jj,ii+1) = lambda(:,jj,ii) + alpha * ...
