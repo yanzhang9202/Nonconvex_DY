@@ -23,6 +23,7 @@ end
 if max(err_consensus, err_feas) < epsilon
     fprintf(['Algorithm succeeds with ', num2str(ii), ' iters.', ...
         ' and accuracy ', num2str(max(err_consensus, err_feas)), '.\n'])
+    break;
 else
     if mod(ii,20) == 1
         fprintf(['Current itr.', num2str(ii), ' and accuracy ', ...
